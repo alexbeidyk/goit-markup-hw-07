@@ -1,0 +1,50 @@
+/* Why are we */
+
+.mar-bot-container {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.feature-list {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+
+  .feature-list-link {
+    width: 270px;
+    height: 120px;
+    background-color: $secondary-white-color;
+  }
+
+  .feature-list-svg {
+    padding: 25px 100px;
+  }
+}
+
+.feature-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.feature-list-header {
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.feature-list-icon-svg {
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+  width: 70px;
+  height: 70px;
+}
+
+.feature-list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $primary-text-color;
+}
